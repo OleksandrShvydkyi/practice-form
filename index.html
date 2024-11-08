@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>stage 1</title>
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  
+
+<body >
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img class="logo__img" src="./images/Logo.svg" alt="logo">
+        </a>
+        <h1 class="header__title">General information</h1>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <form action="" class="first__forms">
+          <div class="first__forms-inner">
+            <label class="first__forms-names" for="name">Project name <br></label>
+            <input class="first__forms-input" type="text">
+          </div>
+          <div class="first__forms-inner">
+            <label class="first__forms-names" for="name">City <br></label>
+            <input class="first__forms-input" type="text">
+          </div>
+          <div class="first__forms-inner">
+            <label class="first__forms-names" for="name">Street <br></label>
+            <input class="first__forms-input" type="text">
+          </div>
+        </form>
+        <form action="" class="second__forms">
+          <div class="second__forms-inner">
+            <label for="" class="second__forms-names">Building number <br></label>
+            <input class="second__forms-input" type="text">
+          </div>
+          <div class="second__forms-inner">
+            <label for="" class="second__forms-names">Cabinet number <br></label>
+            <input class="second__forms-input" type="text">
+          </div>
+          <div class="second__forms-inner">
+            <label for="" class="second__forms-names">Postal code <br></label>
+            <input class="second__forms-input" type="text">
+          </div>
+        </form>
+        <!-- <form action="" class="continue"> -->
+          <button class="button" name="button">Continue</button>
+          <!-- <input type="submit" value="Continue"> -->
+        <!-- </form> -->
+        <div class="terms">
+          <p>By clicking this button you accept our</p>
+          <a href="#" class="terms__inner">Terms and conditions</a>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
