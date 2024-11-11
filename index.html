@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>stage 1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,9 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body >
+<body class="body">
+  <img class="right-img" src="./images/right.svg" alt="">
+  <img class="left-img" src="./images/left.svg" alt="">
   <header class="header">
     <div class="container">
       <div class="header__inner">
@@ -31,36 +33,33 @@
       <div class="main__inner">
         <form action="" class="first__forms">
           <div class="first__forms-inner">
-            <label class="first__forms-names" for="name">Project name <br></label>
-            <input class="first__forms-input" type="text" placeholder="Saloon">
+            <label class="first__forms-names" for="project-name">Project name </label>
+            <input class="first__forms-input" id="project-name" type="text" placeholder="Saloon">
           </div>
           <div class="first__forms-inner">
-            <label class="first__forms-names" for="name">City <br></label>
-            <input class="first__forms-input" type="text" placeholder="London">
+            <label class="first__forms-names" for="city">City </label>
+            <input class="first__forms-input" id="city" type="text" placeholder="London">
           </div>
           <div class="first__forms-inner">
-            <label class="first__forms-names" for="name">Street <br></label>
-            <input class="first__forms-input" type="text" placeholder="Baker street">
+            <label class="first__forms-names" for="street">Street </label>
+            <input class="first__forms-input" id="street" type="text" placeholder="Baker street">
           </div>
-        </form>
-        <form action="" class="second__forms">
-          <div class="second__forms-inner">
-            <label for="" class="second__forms-names">Building number <br></label>
-            <input class="second__forms-input" type="text" placeholder="12-a">
+          <div action="" class="second__forms">
+            <div class="second__forms-inner">
+              <label for="building-number" class="second__forms-names">Building number </label>
+              <input class="second__forms-input" id="building-number" type="text" placeholder="12-a">
+            </div>
+            <div class="second__forms-inner">
+              <label for="cabinet-number" class="second__forms-names">Cabinet number </label>
+              <input class="second__forms-input" id="cabinet-number" type="text" placeholder="42">
+            </div>
+            <div class="second__forms-inner">
+              <label for="postal-code" class="second__forms-names">Postal code </label>
+              <input class="second__forms-input" id="postal-code" type="text" placeholder="E1">
+            </div>
           </div>
-          <div class="second__forms-inner">
-            <label for="" class="second__forms-names">Cabinet number <br></label>
-            <input class="second__forms-input" type="text" placeholder="42">
-          </div>
-          <div class="second__forms-inner">
-            <label for="" class="second__forms-names">Postal code <br></label>
-            <input class="second__forms-input" type="text" placeholder="E1">
-          </div>
-        </form>
-        <!-- <form action="" class="continue"> -->
           <button class="button" name="button">Continue</button>
-          <!-- <input type="submit" value="Continue"> -->
-        <!-- </form> -->
+        </form>
         <div class="terms">
           <p class="terms__prev">By clicking this button you accept our</p>
           <a href="#" class="terms__inner">Terms and conditions</a>
